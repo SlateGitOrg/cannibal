@@ -65,7 +65,7 @@ class TestPlantedTruth(unittest.TestCase):
 
         This is what makes the corpus a fair test: a detector that ranks by
         volume or by overlap size has nothing to latch onto. If the generator
-        leaked the signal into totals, the differentiator would be untestable.
+        leaked the signal into totals, the share statistic would be untestable.
         """
         def cv(pair):
             q, a, b = pair

@@ -29,7 +29,7 @@ class TestShareStatistic(unittest.TestCase):
     def test_statistic_is_invariant_to_a_violent_trend(self):
         """A 600x trend with a fixed split must produce NO evidence at all.
 
-        This is the differentiator's load-bearing property. The generic
+        This is the share statistic's load-bearing property. The generic
         alternative -- correlating the raw click series -- reports a
         near-perfect correlation on exactly the same data, which is the
         confound that makes every pair on a seasonal site look cannibalised.
